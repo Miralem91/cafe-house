@@ -1,0 +1,798 @@
+/*HEADER-SECTION - START*/
+
+#header {
+    background-color: #000;
+}
+
+.main-nav {
+    display: block;
+    height: 60px;
+}
+
+.nav-bar-mobile {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.main-nav-ul {
+    display: block;
+    text-align: right;
+    float: right;
+}
+
+.main-nav-ul li {
+    display: block;
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.main-nav-ul li a {
+    display: block;
+    float: right;
+    padding-left: 80px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.logo {
+    display: inline;
+    padding-top: 0px;
+    color: #c69b66;
+    font-family: Pattaya;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.logo:hover {
+    display: inline;
+    padding-top: 0px;
+    color: white;
+    font-family: Pattaya;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#logo-mobile {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.coffe-img-icon-logo-main {
+    width: 50px;
+}
+
+.top-nav {
+    position: absolute;
+}
+
+#a-active {
+    color: #c69b66 !important;
+}
+
+#hero {
+    background-color: #282725;
+}
+
+.hero-image {
+    display: block;
+    margin: 0 auto !important;
+}
+
+.hero-text {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    color: #c69b66;
+}
+
+.welcome {
+    font-size: 2.5rem;
+    color: #b8a896;
+    font-family: Snippet;
+    font-style: italic;
+}
+
+.big-title {
+    font-size: 4rem;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px gold, 0 0 40px gold, 0 0 50px gold, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.normal-text {
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+    font-size: 1.2 rem;
+    color: #b8a896;
+}
+
+.hero-button {
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    background-image: url(../img/wood-texture.webp);
+    color: #c69b66;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.hero-lamp {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.lamp1 img {
+    width: 150px;
+    height: auto;
+}
+
+
+/*HEADER-SECTION - END*/
+
+
+/*HEADER-MOBILE -SECTION  - START*/
+
+@media only screen and (max-width: 992px) {
+    #header {
+        background-color: #000;
+    }
+    .nav-bar-mobile {
+        opacity: 1;
+        pointer-events: auto;
+        width: 50%;
+    }
+    .nav-bar-mobile button {
+        opacity: 1;
+        pointer-events: auto;
+        width: 50%;
+        left: 0;
+        padding-bottom: 10px;
+    }
+    .navbar-brand {
+        color: #c69b66 !important;
+    }
+    .nav-link {
+        color: white;
+    }
+    #logo-desktop {
+        opacity: 0;
+        pointer-events: none;
+    }
+    #logo-mobile {
+        position: absolute;
+        left: 400px;
+        padding-top: 0px;
+        color: #c69b66;
+        font-family: Pattaya;
+        font-size: 2rem;
+        font-style: italic;
+        float: right !important;
+        width: 20%;
+        margin-top: 10px;
+    }
+    .main-nav {
+        display: block;
+        height: 60px;
+    }
+    .main-nav-ul {
+        opacity: 0;
+        pointer-events: none;
+    }
+    .hero-image {
+        display: block;
+        margin: 0 auto !important;
+        width: 80%;
+    }
+    .hero-text {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+        color: #c69b66;
+    }
+    .welcome {
+        font-size: 2.5rem;
+        color: #b8a896;
+        font-family: Snippet;
+        font-style: italic;
+    }
+    .big-title {
+        font-size: 3rem;
+    }
+    .glow {
+        font-size: 80px;
+        color: #fff;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+    .normal-text {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+        font-size: 1.2 rem;
+        color: #b8a896;
+    }
+    .hero-button {
+        margin-top: 50px;
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+        background-image: url(../img/wood-texture.webp);
+        color: #c69b66;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .hero-lamp {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        opacity: 0;
+        pointer-events: none;
+    }
+    .coffe-img-icon-logo-main {
+        position: absolute;
+        width: 40px;
+        top: 0;
+        right: 0;
+        opacity: 0;
+    }
+    .top-nav {
+        display: none;
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+
+/*HEADER MOBILE ENDS*/
+
+
+/*CONTENT - START*/
+
+.content,
+.card-container,
+.card-title {
+    background-color: #e4e4e4;
+}
+
+.card-container {
+    padding-top: 200px;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.card-image {
+    display: block;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    float: right;
+    border: 5px solid white;
+    -webkit-box-shadow: 7px 119px 66px -54px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 7px 119px 66px -54px rgba(0, 0, 0, 0.55);
+    box-shadow: 7px 119px 66px -54px rgba(0, 0, 0, 0.55);
+}
+
+.read-more {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: auto;
+    background-image: url(../img/wood-texture.webp);
+    color: #c69b66;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.italic-text {
+    color: #c69b66;
+    font-size: 2rem;
+    font-family: Pattaya;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.cards {
+    margin-bottom: 60px;
+}
+
+.card-title {
+    font-size: 2.5rem;
+}
+
+.cards-square {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-square {
+    width: 300px;
+    background-color: #ffffff;
+    -webkit-box-shadow: inset -3px -4px 20px 0px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: inset -3px -4px 20px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: inset -3px -4px 20px 0px rgba(0, 0, 0, 0.47);
+    border-radius: 10px;
+}
+
+.card-image-square {
+    width: 300px;
+    height: auto;
+}
+
+.card-square-title {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Pattaya;
+    color: #adaeb0;
+    border-bottom: 1px solid #adaeb0;
+    padding: 0px 50px;
+}
+
+.card-square-text {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.cappucino-img {
+    height: 200px !important;
+}
+
+.order-now {
+    overflow: hidden;
+    padding-top: 0px;
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+.today-special {
+    margin-bottom: 100px;
+    display: block;
+    height: 450px;
+}
+
+.testing-area {
+    display: block;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.images {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.img1 {
+    height: 500px;
+    width: 550px;
+    border: 7px solid white !important;
+    display: block;
+    float: left;
+    background-image: url(../img/cup-coffe.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    display: block;
+    height: 290px;
+    width: 555px;
+    border: 5px solid white;
+    float: right;
+    margin-bottom: 15px !important;
+    background-image: url(../img/cookie.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 7px solid white !important;
+}
+
+.img3 {
+    height: auto;
+    width: 275px;
+    border: 5px solid white;
+    background-image: url(../img/burger.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 7px solid white !important;
+}
+
+.img4 {
+    height: auto;
+    width: 275px;
+    border: 5px solid white;
+    background-image: url(../img/meat.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 7px solid white !important;
+}
+
+.float-right-images {
+    display: flex;
+    float: right;
+    width: 555px;
+    justify-content: space-between;
+    height: 195px;
+}
+
+.card-title-div {
+    background-color: #111111;
+    opacity: 0.6;
+}
+
+.ts-big-image-title {
+    font-size: 1.5rem;
+    color: white;
+    height: 40px;
+    text-align: left;
+}
+
+.ts-big-image-text {
+    color: white;
+}
+
+.menu {
+    margin-top: 100px !important;
+}
+
+.stand-img {
+    width: 300px;
+    height: auto;
+}
+
+.daily-menu-text {
+    width: 50%;
+    display: block;
+    float: right;
+}
+
+.menu-ol {
+    list-style: none;
+    counter-reset: li
+}
+
+.menu-li::before {
+    content: counter(li);
+    color: #c8a06f;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-weight: bolder;
+}
+
+.menu-li {
+    counter-increment: li
+}
+
+.flex-icons {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.coffe-img-icon {
+    width: 50px;
+    padding-bottom: 50px;
+}
+
+.coffe-img-icon-logo {
+    height: 45px;
+    position: absolute;
+    top: 0px !important;
+    left: 170px;
+}
+
+.footer-background {
+    margin-top: 60px;
+    background-color: #2f2f2f;
+}
+
+.footer-section {
+    color: #f8f1eb;
+    display: flex;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.main-menu,
+.about-us,
+.get-social {
+    width: 33%;
+    padding: 20px;
+}
+
+.main-menu ul li {
+    list-style: none;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: left;
+}
+
+.copy-right {
+    text-align: center;
+    height: 100px;
+}
+
+.copy-right {
+    padding-top: 40px;
+}
+
+.get-social i {
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+
+/*CONTENT - END*/
+
+
+/*CONTENT - MOBILE - START*/
+
+@media only screen and (max-width: 992px) {
+    .cards-square {
+        display: flex;
+        align-content: space-around;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .card-square {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .card-image-square {
+        width: 100%;
+        height: auto;
+    }
+    .today-special {
+        margin-bottom: 100px;
+        display: block;
+        height: auto;
+    }
+    .testing-area {
+        display: block;
+        border: 1px solid black;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .images {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .img1 {
+        height: auto;
+        width: 100%;
+        border: 7px solid white !important;
+        display: block;
+        float: left;
+        background-image: url(../img/cup-coffe.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .img2 {
+        display: block;
+        height: auto;
+        width: 100%;
+        border: 5px solid white;
+        float: right;
+        margin-bottom: 15px !important;
+        background-image: url(../img/cookie.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 7px solid white !important;
+    }
+    .img3 {
+        height: auto;
+        width: 100%;
+        border: 5px solid white;
+        background-image: url(../img/burger.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 7px solid white !important;
+    }
+    .img4 {
+        height: auto;
+        width: 100%;
+        border: 5px solid white;
+        background-image: url(../img/meat.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 7px solid white !important;
+    }
+    .float-right-images {
+        display: flex;
+        float: right;
+        height: auto;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .card-title-div {
+        background-color: #111111;
+        opacity: 0.6;
+    }
+    .ts-big-image-title {
+        font-size: 1.5rem;
+        color: white;
+        height: 40px;
+        text-align: left;
+    }
+    .ts-big-image-text {
+        color: white;
+    }
+    .menu {
+        margin-top: 100px !important;
+        height: auto;
+    }
+    .stand-img {
+        width: 30%;
+        height: auto;
+    }
+    .daily-menu-text {
+        width: 50%;
+        display: block;
+        float: right;
+    }
+    .menu-ol {
+        list-style: none;
+        counter-reset: li
+    }
+    .menu-li::before {
+        content: counter(li);
+        color: #c8a06f;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        font-weight: bolder;
+    }
+    .menu-li {
+        counter-increment: li
+    }
+    .flex-icons {
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .coffe-img-icon {
+        width: 50px;
+        padding-bottom: 50px;
+    }
+    .coffe-img-icon-logo {
+        height: 45px;
+        position: absolute;
+        top: 0px !important;
+        left: 170px;
+    }
+    .footer-background {
+        margin-top: 300px;
+        background-color: #2f2f2f;
+        display: block;
+    }
+    .footer-section {
+        color: #f8f1eb;
+        display: flex;
+    }
+    .footer-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .main-menu,
+    .about-us,
+    .get-social {
+        width: 33%;
+        padding: 20px;
+    }
+    .main-menu ul li {
+        list-style: none;
+        font-weight: 600;
+        line-height: 2rem;
+        text-align: left;
+    }
+    .copy-right {
+        text-align: center;
+        height: 100px;
+    }
+    .copy-right {
+        padding-top: 40px;
+    }
+    .get-social i {
+        font-size: 1.5rem;
+        padding-left: 10px;
+    }
+}
+
+
+/*CONTENT - MOBILE - ENDS*/
+
+
+/*ANIMATION - SECTION*/
+
+.inline-photo {
+    max-width: 600px;
+    opacity: 0;
+    -webkit-transform: translateY(6em) rotateZ(0deg);
+    transform: translateY(5em) rotateZ(0deg);
+    -webkit-transition: opacity .3s .25s ease-out, -webkit-transform 4s .25s cubic-bezier(0, 1, .3, 1);
+    transition: opacity .3s .25s ease-out, -webkit-transform 4s .25s cubic-bezier(0, 1, .3, 1);
+    transition: transform 4s .25s cubic-bezier(0, 1, .3, 1), opacity .3s .25s ease-out;
+    transition: transform 4s .25s cubic-bezier(0, 1, .3, 1), opacity .3s .25s ease-out, -webkit-transform 4s .25s cubic-bezier(0, 1, .3, 1);
+    width: 90%;
+    will-change: transform, opacity;
+}
+
+.inline-photo.is-visible {
+    opacity: 1;
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+}
+
+header {
+    opacity: 0;
+    -webkit-transition: opacity .5s .25s ease-out;
+    transition: opacity .5s .25s ease-out;
+}
+
+header.is-visible {
+    opacity: 1;
+}
+
+.main-photo {
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+}
+
+.heading {
+    -webkit-transform: translate(-50%, calc(-50% + 1em));
+    transform: translate(-50%, calc(-50% + 1em));
+}
+
+.is-visible .main-photo {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.is-visible .heading {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.main-photo,
+.heading {
+    -webkit-transition: -webkit-transform 4s .25s cubic-bezier(0, 1, .3, 1);
+    transition: -webkit-transform 4s .25s cubic-bezier(0, 1, .3, 1);
+    transition: transform 4s .25s cubic-bezier(0, 1, .3, 1);
+    transition: transform 4s .25s cubic-bezier(0, 1, .3, 1), -webkit-transform 4s .25s cubic-bezier(0, 1, .3, 1);
+    will-change: transform;
+}
